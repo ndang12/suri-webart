@@ -1,0 +1,40 @@
+
+html { 
+    background-color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVzYysLcToIJSp13KUg3XG8KqoepFaQWvfM6Nw8U41WetRpkXlA"); 
+     
+}
+p {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+
+}
+
+h1{
+
+    color:springgreen;
+    font-size: 100px;
+
+}
+h2{
+    font-family: monospace;
+    color: grey;
+    font-size: 50px;
+
+}
+h3{
+p {
+    background-color: palevioletred;
+    font-size: 50px;
+}    
+    
+
+}
+
+.right-text {
+    position: absolute;
+    left: 700px;
+    bottom: 50px;
+
+}
