@@ -1,8 +1,6 @@
 
 html { 
-    background-color: black;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVzYysLcToIJSp13KUg3XG8KqoepFaQWvfM6Nw8U41WetRpkXlA"); 
-     
+    background-color: springgreen;
 }
 p {
     
@@ -13,7 +11,7 @@ p {
 
 h1{
 
-    color:springgreen;
+    color:red;
     font-size: 100px;
 
 }
