@@ -5,9 +5,8 @@ html {
     
 }
 p {
-    font-family: 'Aldrich', sans-serif;
+    font-family: ;
     color: orange;
-    background-color: black;
     font-size: 30px;
 
 }
@@ -16,5 +15,15 @@ h1{
     font-family: 'Orbitron', sans-serif;
     color:brown;
     font-size: 100px;
-    background-color: black;
+    border: 4px dotted yellow;
+
 }
+      
+      div {
+        border: double;
+      }
+      div {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
