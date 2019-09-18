@@ -1,0 +1,20 @@
+
+html {
+
+    background-image: url("https://i.pinimg.com/originals/51/2d/08/512d0838ca8dc7c20d402d891d62df1a.gif");
+    
+}
+p {
+    font-family: 'Orbitron', sans-serif;
+    color: greenyellow;
+    background-color: black;
+    font-size: 30px;
+
+}
+
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: violet;
+    font-size: 100px;
+    background-color: black;
+}

@@ -1,38 +1,18 @@
-
-html { 
+html {
     background-color: springgreen;
-}
-p {
-    
-    font-family: Arial, Helvetica, sans-serif;
-    color: beige;
-
+    background-image: url("https://i.pinimg.com/originals/c4/c3/24/c4c324d4c133aec518c70a29e2d484df.gif");
 }
 
 h1{
-
-    color:red;
-    font-size: 100px;
-
-}
-h2{
-    font-family: monospace;
-    color: grey;
-    font-size: 50px;
-
-}
-h3{
-p {
-    background-color: palevioletred;
-    font-size: 50px;
-}    
+    color: red;
+    font-size: 65px;
+    font-family: 'Press Start 2P', cursive;
     
-
 }
+p {
 
-.right-text {
-    position: absolute;
-    left: 700px;
-    bottom: 50px;
-
-}
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    color: mediumspringgreen;
+    } 
+} 
