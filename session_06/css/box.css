@@ -1,0 +1,151 @@
+
+body {
+    margin:0;
+    background-image: url("https://images1.the-dots.com/v1/943970.jpg?p=projectImageFullJpg");
+    background-size: contain;
+
+}
+.wrapper{
+    width: 400px;
+    height: 600px;
+    background-color:grey;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 0px;
+    border-radius: 2%;
+
+}
+.container1{
+    position: relative;
+    top: 100px;
+    background-color: mintcream;
+    width: 80%;
+    height: 0%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row { 
+    height: 18%;
+
+}
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.box {
+    float: left;
+    width: 15%;
+    height: 10%;
+    margin: 3% 5%;
+    background-color: black;
+    margin-top: 0%;
+    border-radius: 25%;
+    background-size: contain;
+    transition: 1s;
+   
+    
+}
+.box1 {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        order: 1;
+        
+}
+.box2, .box3 {
+    background-color:yellow;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 1;
+    flex-basis: 400px;
+    border: 2px solid grey;
+    display: flex;
+}
+.box:hover {
+    transform: scale(3);
+    transform: rotateX(120deg);
+
+}
+.box1:hover {
+    transform: scale(5);
+    transform: rotateY(180deg);
+
+}
+.box2:hover {    
+    transform: rotateY(180deg);
+
+}
+
+.ma {
+    background-image: url("https://vivisxn.com/wp-content/uploads/2018/01/We-Margiela-A-Fashion-Film-about-designer-Martin-Margiela-Maison-Margiela-Fashion-Socialism-Collectivism-Avant-Garde-VIVISXN-interviews-Martin-Margiela.gif");
+    background-size: contain;
+
+
+}
+.ma1 {
+    background-image: url("https://i.pinimg.com/originals/9b/9b/11/9b9b116417b85d4956bbecda577ff894.jpg");
+    background-size: contain;
+    
+}
+.ma2 {
+    background-image: url("http://www.attachmax.com/p/2018/11/calligraphy-letter-a-lowercase-printables-and-menu-inside-calligraphy-letter-a-lowercase-600x600.jpg");
+
+}
+.ma3 {
+    background-image: url("http://www.jorge-online.com/p/2018/12/lowercase-calligraphy-r-related-keywords-suggestions-lowercase-with-calligraphy-letter-r-lowercase.jpg");
+}
+.ma4 {
+    background-image: url("https://i.pinimg.com/originals/cf/69/8d/cf698d5c70b7f766be701bbd595bbbbe.gif");
+    background-size: contain;
+
+}    
+.ma5 {
+    background-image: url("https://s3.amazonaws.com/static.graphemica.com/glyphs/i500s/000/000/074/original/0069-500x500.png?1275288049");
+    background-size: contain;
+
+}    
+.ma6 {
+    background-image: url("https://i.pinimg.com/736x/6f/96/dc/6f96dc4c05ffaefef8b85f8b9c383fbd.jpg");
+    background-size: contain;
+
+}    
+.ma7 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/roman-calligraphy-alphabet-l.jpg");
+    background-size: contain;
+
+}
+.ma8 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/roman-calligraphy-alphabet-i.jpg");
+
+}
+.ma9 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/lowercase-calligraphy-alphabet-s.jpg");
+
+}
+.ma10 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/roman-calligraphy-alphabet-d.jpg");
+
+}
+.ma11 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/roman-calligraphy-alphabet-a.jpg");
+
+}
+.ma12 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/roman-calligraphy-alphabet-b.jpg");
+
+}
+.ma13 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/roman-calligraphy-alphabet-e.jpg");
+
+}
+.ma14 {
+    background-image: url("http://calligraphyalphabet.org/wp-content/uploads/roman-calligraphy-alphabet-t.jpg");
+
+}

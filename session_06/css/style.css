@@ -1,0 +1,19 @@
+.box{
+    width: 800px;
+    height: 400px;
+    background-color: brown;
+}
+#green-box {
+    width: 800px;
+    height: 400px;
+    background-color: coral
+}
+a {
+
+    background-color: aqua;
+
+}
+
+p {
+    display: inline;
+}
