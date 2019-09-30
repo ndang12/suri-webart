@@ -1,0 +1,101 @@
+body{
+    background-image: url("https://media0.giphy.com/media/fxySpqpxwunJovPLwV/giphy.gif?cid=790b7611b8c90bc408b96b22734449976671e39ebf77c701&rid=giphy.gif");
+    background-size: 10%;
+
+
+}
+.box{
+    background-image: url("https://data.whicdn.com/images/91247631/large.jpg");
+    background-size: 100%;
+
+    background-position: center;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 350px;
+
+    animation-name: backandforth;
+    animation-duration: 2s;
+    animation-timing-function: ease-in; 
+  
+
+    border-radius: 40%;
+    animation-name: swag-rounded;
+    animation-duration: 4s;
+    animation-timing-function: ease-in; 
+}
+.container1{
+    position: relative;
+    top: 500px;
+    left: 500px;
+    width: 200px;
+    height: 350px;
+
+    animation-name: swag-rounded;
+    animation-duration: 10s;
+    animation-timing-function: ease-in; 
+}
+.box2, .box3 {
+    width: 10px;
+    height: 20px;
+    border-radius: 30%;
+} 
+#triangle-left {
+    width: 100px;
+    height: 100px;
+    border-top: 50px solid transparent;
+    border-right: 100px solid orange;
+    border-bottom: 50px solid transparent;
+  }
+
+.circle {
+    background-image: url("https://i.pinimg.com/originals/64/b3/c0/64b3c060755c2b12ef95c75f3353f1ed.jpg");
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 70px;
+    height: 100px;
+    border-radius: 50%;
+    animation-name: backandforth;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+  }
+.circle2 {
+    background-image: url("https://i.pinimg.com/originals/64/b3/c0/64b3c060755c2b12ef95c75f3353f1ed.jpg");
+    position: relative;
+    top: 1%;
+    left: 170px;
+    width: 70px;
+    height: 100px;
+    border-radius: 50%;
+    animation-name: backandforth;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+  .box {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 350px;
+
+    animation-name: backandforth;
+    animation-duration: 1s;
+    animation-timing-function: ease-in; 
+  }
+
+  @keyframes backandforth {
+    0% {top: 0px; right: 0px; bottom: 0px; border-radius: 40%;background-color: yellow}
+    25% {top: 100px; left: 100px; border-radius: 40%;background-color: yellow}
+    50% {top: 400px; left: 800px; bottom: 400px; right:400px; border-radius: 40%;background-color: yellow}
+    75% {top: 500px; left: 800px; border-radius: 40%;}
+    100% {top: 0px; left: 0px; border-radius: 40%;}
+  }
+@keyframes swag-rounded {
+    0% {top: 0px; right: 0px; bottom: 0px; border-radius: 0;background-color: teal}
+    25% {top: 400px; left: 400px; border-radius: 12.5%;background-color: tomato}
+    50% {top: 100px; left: 100px; border-radius: 25%;background-color: yellow}
+    75% {top: 400px; left: 0px; border-radius: 37.5;}
+    100% {top: 0px; left: 0px; border-radius: 50%;}
+  }

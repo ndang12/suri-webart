@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+header {
+    margin: 0 auto;
+
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: sans-serif
+}
+.box {
+    position: relative;
+    left: 200px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    transition-property: width, height;
+    transition-duration: 2000ms, 1000ms;
+    transition-timing-function: ease-in, ease-out, linear;
+    transition-timing-function: cubic-bezier(.17,.67,.79,.52), ease-out, linear;
+
+    /* transition: width 2000ms ease-in; */
+    /* transition: height 1000ms linear;
+    transition: back-ground-color 4000ms ease-out; */
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: pink;
+    
+}
+.box:hover {
+    width: 800px;
+    height: 400px;
+    background-color: aquamarine;
+}
+#trigger1 {
+    position: relative;
+    left: 200px;
+    top: 300px;
+    width: 
+   
+
+}
+#trigger1:hover {
+    width: 10px;
+    height: 20px;
+    background-color: orange;
+    transition-property: width, height, background-color;
+    transition-duration: 500ms, 1000ms, 4000ms;
+    transition-delay: 100ms, 300ms, 4000;
+    transition-timing-function: ease-in, ease-out, linear;
+}
+
+/* .blue:hover {} */
+.blue {
+    background-color: royalblue
+}
